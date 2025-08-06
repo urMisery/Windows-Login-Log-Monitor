@@ -13,7 +13,7 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 
 > Run Powershell as administrator!
 
-> Go to the directory where your script is located (e.x. "cd C:\Users\YourUser\Desktop")
+> Go to the directory where your script is located (e.g "cd C:\Users\YourUser\Desktop")
 
 > And type ./Get-FailedLogins.ps1
 
