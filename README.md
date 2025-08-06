@@ -22,17 +22,21 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 >   2. Confirm changes
 >   3. Try to execute script again
 
-# Example Output
+# 🧪 Example Output
 ```powershell
-
 .\Get-FailedLogins.ps1
 ===== Failed Logons (4625) =====
-TimeGenerated   AccountName   IPAddress     FailureReason
-----------------------------------------------------------
-08/06/2025      admin         192.168.1.5   Unknown user name or bad password
+
+TimeCreated         Account       IPAddress        FailureReason
+------------        -------       ---------        --------------
+08/06/2025 12:15    testUser1     192.168.1.50     5
+08/06/2025 13:04    admin         10.0.0.25        7
+08/06/2025 13:45    guest         172.16.2.30      11
 
 ===== Successful Logons (4624) =====
-TimeGenerated   AccountName   IPAddress     LogonType
-----------------------------------------------------------
-08/06/2025      admin         192.168.1.5   Interactive
+
+TimeCreated         Account       IPAddress        LogonType
+------------        -------       ---------        ---------
+08/06/2025 14:45    domainUser1   10.0.0.14        2
+08/06/2025 15:30    localAdmin    127.0.0.1        10
 ```
