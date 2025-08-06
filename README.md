@@ -26,7 +26,7 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 
 # 🧪 Example Output
 ```powershell
-.\Get-FailedLogins.ps1
+./Get-FailedLogins.ps1
 ===== Failed Logons (4625) =====
 
 TimeCreated         Account        IPAddress       FailureReason
