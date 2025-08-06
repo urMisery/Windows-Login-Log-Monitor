@@ -1,5 +1,5 @@
 #Get-FailedLogins.ps1
-#Анализ неудачных и успешных входов в систему из Security журнала
+#Analysis of Failed and Successful Logons from the Security Event Log
 
 $timeFrame = (Get-Date).AddHours(-24) # Last 24 hours
 
