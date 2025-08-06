@@ -29,16 +29,16 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 .\Get-FailedLogins.ps1
 ===== Failed Logons (4625) =====
 
-TimeCreated         Account       IPAddress        FailureReason
-------------        -------       ---------        --------------
-08/06/2025 12:15    testUser1     192.168.1.50     5
-08/06/2025 13:04    admin         10.0.0.25        7
-08/06/2025 13:45    guest         172.16.2.30      11
+TimeCreated         Account        IPAddress       FailureReason
+------------        -------        ---------       --------------
+08/06/2025 12:15    testUser1      192.168.1.50    Unknown user name or bad password.
+08/06/2025 13:04    admin          10.0.0.25       Account currently disabled.
 
 ===== Successful Logons (4624) =====
 
-TimeCreated         Account       IPAddress        LogonType
-------------        -------       ---------        ---------
-08/06/2025 14:45    domainUser1   10.0.0.14        2
-08/06/2025 15:30    localAdmin    127.0.0.1        10
+TimeCreated         Account        IPAddress       LogonType
+------------        -------        ---------       ---------
+08/06/2025 14:45    domainUser1    10.0.0.14       2
+08/06/2025 15:30    localAdmin     127.0.0.1       10
+
 ```
