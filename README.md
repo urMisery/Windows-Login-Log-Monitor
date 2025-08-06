@@ -17,10 +17,10 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 >
 > And type ./Get-FailedLogins.ps1
 >
-> If you had issue like "**_Get-FailedLogins.ps1 cannot be loaded because running scripts is disabled on this system._**", do next:
+> If you have an issue like "**_Get-FailedLogins.ps1 cannot be loaded because running scripts is disabled on this system._**", do the following:
 >   1. Type **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass** command. It allows you to execute a script one time only
->   2. Confirm changes typing Y
->   3. Try to execute script again
+>   2. Confirm the change by typing Y
+>   3. Try to execute the script again
 >
 > 
 
