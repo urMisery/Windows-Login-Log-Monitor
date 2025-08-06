@@ -12,10 +12,15 @@ This PowerShell script monitors Windows Event Logs for login attempts (successfu
 ## 🚀 Usage
 
 > Run Powershell as administrator!
-
+>
 > Go to the directory where your script is located (e.g "cd C:\Users\YourUser\Desktop")
-
+>
 > And type ./Get-FailedLogins.ps1
+>
+> If you had issue like "Get-FailedLogins.ps1 cannot be loaded because running scripts is disabled on this system.", do this:
+>   1. Type **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass** command.
+>   2. Confirm changes
+>   3. Try to execute script one more time
 
 # Example Output
 ```powershell
